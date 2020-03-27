@@ -1,5 +1,5 @@
 <?php
-namespace App\ShamsiDate\Twig;
+namespace Hesam\ShamsiDate\Twig;
 
 class AppExtension extends \Twig_Extension
 {
