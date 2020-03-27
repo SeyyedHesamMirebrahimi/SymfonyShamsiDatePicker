@@ -2,6 +2,13 @@
 Symfony Shamsi/Persian Date Picker Synced With DateTime ColumnIn Entity
 
 ## Installatioan
+
+
+```Shel
+composer require hesam/shamsi-date:dev-master
+```
+
+
 add these two lines to header of your template file :
 
 ```HTML
