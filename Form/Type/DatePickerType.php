@@ -13,9 +13,9 @@ class DatePickerType extends AbstractType
 {
     private $transformer;
 
-    public function __construct(DateTimObjectTransformer $transformer)
+    public function __construct()
     {
-        $this->transformer = $transformer;
+        $this->transformer = new DateTimObjectTransformer;
     }
 
     public function configureOptions(OptionsResolver $resolver)
