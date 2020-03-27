@@ -1,0 +1,27 @@
+{% block date_picker_widget %}
+    <div class="row">
+        <div class="col-12">
+            {% spaceless %}
+                <div class="form_row">
+
+{#                    {% if form.vars.data is not null %}#}
+{#                        <input type="hidden" id="{{ form.vars.id }}" name="{{ form.vars.name }}" value="{{ form.vars.data|date('Y/m/d') }}">#}
+{#                    {% else %}#}
+{#                        <input type="hidden" id="{{ form.vars.id }}" name="{{ form.vars.name }}">#}
+{#                    {% endif %}#}
+                    <div class="form-group">
+                        {{ form_widget(form) }}
+                        {{ form_label(form) }}
+                        <input id="{{ form.vars.id }}_virtual_inpit" class="form-control" type="text" readonly>
+                    </div>
+                    <script>
+                        $('#{{ form.vars.id }}_virtual_inpit').MdPersianDateTimePicker({
+                            targetTextSelector: '#{{ form.vars.id }}_virtual_inpit',
+                            targetDateSelector: '#{{ form.vars.id }}',
+                        });
+                    </script>
+                </div>
+            {% endspaceless %}
+        </div>
+    </div>
+{% endblock %}

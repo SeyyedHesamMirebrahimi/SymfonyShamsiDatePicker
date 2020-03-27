@@ -1,0 +1,21 @@
+{
+    "name": "hesam/shamsi-date",
+    "type": "symfony-bundle",
+    "description": "Symfony Shamsi/Persian Date Picker Synced With DateTime ColumnIn Entity",
+    "keywords": [ "Symfony", "shamsi", "jalali", "datepicker", "jalalidatepicker", "shamsidatepicker", "persian", "persiandatepicker"],
+    "homepage": "http://hmirebrahimi.ir",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Seyyed Hesam Mirebrahimi",
+            "homepage": "https://github.com/SeyyedHesamMirebrahimi"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hesam\\ShamsiDate\\": ""
+        },
+        "exclude-from-classmap": [ "/Tests/" ]
+    },
+    "require": {}
+}
