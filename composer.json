@@ -11,16 +11,16 @@
             "homepage": "https://github.com/SeyyedHesamMirebrahimi"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "Hesam\\ShamsiDate\\": ""
-        },
-        "exclude-from-classmap": [ "/Tests/" ]
-    },
-      "require" : {
+  "require" : {
     "php": "^5.5.9 || ^7.0"
   },
-      "autoload-dev": {
+  "autoload" : {
+    "exclude-from-classmap": ["/Tests/"],
+    "psr-4": {
+      "Hesam\\ShamsiDate\\" : ""
+    }
+  },
+  "autoload-dev": {
     "psr-4": {
       "Hesam\\ShamsiDate\\" : "/"
     }
