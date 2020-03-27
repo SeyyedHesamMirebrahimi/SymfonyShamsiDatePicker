@@ -7,6 +7,11 @@ Symfony Shamsi/Persian Date Picker Synced With DateTime ColumnIn Entity
 ```Shel
 composer require hesam/shamsi-date:dev-master
 ```
+thene add bundle to kernel
+```Shel
+\Hesam\ShamsiDate\ShamsiDateBundle::class => ['all' => true],
+```
+  
 
 
 add these two lines to header of your template file :
