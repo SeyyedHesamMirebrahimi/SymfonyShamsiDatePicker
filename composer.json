@@ -5,6 +5,8 @@
     "keywords": [ "Symfony", "shamsi", "jalali", "datepicker", "jalalidatepicker", "shamsidatepicker", "persian", "persiandatepicker"],
     "homepage": "http://hmirebrahimi.ir",
     "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Seyyed Hesam Mirebrahimi",
